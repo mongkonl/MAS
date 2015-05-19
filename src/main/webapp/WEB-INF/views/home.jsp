@@ -82,7 +82,7 @@
 	  	<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
 		<hr />
         <footer class="text-center">
-            <p><small>MAS - Powered by dev team &copy; </small></p>
+            <p><small>MAS - Powered by Dev Team &copy; </small></p>
         </footer>
     </div>
 </body>
