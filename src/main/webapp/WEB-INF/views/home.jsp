@@ -12,9 +12,13 @@
 	
 	<c:url value="/resources/bootstrap/css/bootstrap.min.css" var="cssbootstrap" />
 	<c:url value="/resources/angular/angular.js" var="scriptangular" />
+	<c:url value="/resources/jquery/jquery-2.1.4.min.js" var="scriptjquery" />
+	<c:url value="/resources/bootstrap/js/bootstrap.min.js" var="scriptbootstrap" />
 	<c:url value="/resources/ui-bootstrap/ui-bootstrap-tpls-0.13.0.min.js" var="scriptui" />
 	<link href="${cssbootstrap}" rel="stylesheet">
 	<script src="${scriptangular}" type="text/javascript"></script>
+	<script src="${scriptjquery}" type="text/javascript"></script>
+	<script src="${scriptbootstrap}" type="text/javascript"></script>
 	<script src="${scriptui}" type="text/javascript"></script>
 </head>
 <body>
@@ -28,7 +32,7 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" href="#">Brand</a>
+	      <a class="navbar-brand" href="#">MAS</a>
 	    </div>
 	
 	    <!-- Collect the nav links, forms, and other content for toggling -->
@@ -78,7 +82,7 @@
 	  	<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
 		<hr />
         <footer class="text-center">
-            <p><small>MAS : Management and Analysis System - Powered by dev team &copy; </small></p>
+            <p><small>MAS - Powered by dev team &copy; </small></p>
         </footer>
     </div>
 </body>
